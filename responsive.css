@@ -1,0 +1,415 @@
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+#wrapper{
+	 width:100%;
+}
+#main_wrap {
+    background: #d7d9db;
+    width: 100%;
+    height: 2215px;
+    overflow: hidden;
+}
+#under_menu {
+    background: #ffd4bf;
+    height: auto;
+    width: 100%;;
+}
+#under_menu p{
+	color:black;
+}
+#first_p {
+    background: #ffd4bf;
+}
+#button {
+    width: 200px;
+    margin-left: 43%;
+}
+#left_side_wrap {
+    width: 27%;
+}
+
+#middle_part {
+    background: white;
+    height: 2250px; 
+    width: 48%;
+}
+#middle_part p{
+	text-align:center;
+}
+#middle_part {
+    background: white;
+    height: 2250px;
+    width: 46%;
+}
+#middle_p {
+    width: 100%;
+	border-bottom:none;
+}
+
+#right_side_wrap {
+    width: 27%;
+}
+#div_wrap {
+    width: 93%;
+}
+#box_menu {
+    width: 93%;
+}
+#middle_part2 {
+    width: 100%;
+	height: auto;
+    margin: 50px auto;
+    border-radius: 10px;
+    border-top: 3px solid #d5eff2;
+    border-right: 3px solid #d5eff2;
+
+}
+#part2_left {
+    width: 100%;
+    height: auto;
+    margin-left: 14px;	
+}
+#left_lastdiv {
+    width: 86%;
+    margin-top: 20px;
+}
+#part2_right {
+    width: 100%;
+}
+#box_menu3 {
+    width: 93%;
+}
+#box_menu4 {
+    width: 94%;
+}
+#box_menu5 {
+    width: 94%;
+}
+
+
+
+
+
+
+
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+#wrapper{
+	 width:100%;
+}	
+#header{
+	background:100%;
+	overflow:hidden;
+}	
+#head_image {
+    width: 100%;
+}
+#head_image img {
+    width: 29%;
+    margin-left: 33%;
+}	
+#head_h1 {
+    width: 100%;
+	margin-top: 3%;
+    text-align: center;
+    font-size: 14px;
+}
+#menu {
+    background: white;
+    height: auto;
+    border-bottom: 2px solid black;
+}
+#menu ul li {
+    float: none;
+    text-align: center;
+	border-bottom: 1px solid #daecea;
+}	
+#menu ul li a{
+	font-size:20px;
+	font-style:italic;
+	font-weight:bold;
+	color:#3c604f;
+	transition: color 1s, background 2s;
+}
+#menu ul li a:hover{
+	color:black;
+	background:#3c604f;
+}
+#under_menu {
+    height: auto;
+    text-align: center;
+    padding: 11px;
+	background:#fffaf8;
+    box-sizing: border-box;
+}	
+#first_p {
+    background: #fbfaf9;
+}
+#first_p p{
+	color:black;
+	font-size:18px;
+}
+#div_wrap {
+    width: 87%;
+    height: 75px;
+}	
+#main_wrap {
+    width: 100%;
+    height: auto;
+}	
+#left_side_wrap {
+    width: 100%;
+    height: auto;
+    background: #383a3b;
+    float: left;
+    box-shadow: 1px 1px 4px black;
+    overflow: hidden;
+}
+#middle_part {
+    background: white;
+    height: auto;
+    width: 100%;
+	text-align:justify;
+}
+#middle_p {
+    width: 87%;
+    height: auto;
+	padding:5px;
+	line-height: 22px;
+	box-sizing:border-box;
+    background: #fff6f6;
+    border-bottom: 1px solid gray;
+    
+}	
+#middle_part2{
+	display:none;
+}	
+#right_side_wrap {
+    width: 100%;
+    height: auto;
+    background: #232526;
+ 
+}
+#box_menu4 {
+    width: 86%;
+    height: auto;
+    
+}
+#box_menu {
+    width: 86%;
+    height: 415px;
+    background: #e1e7ed;
+   
+}
+#box_menu3 {
+    width: 86%;
+}
+#box_menu5 {
+    width: 86%;
+}	
+fp_first {
+    width: 44%;
+    float: left;
+}	
+#fp_second {
+    width: 50%;
+    float: right;
+    margin-right: 5%;
+}	
+#foot_image img {
+    width: 100%;
+    vertical-align: middle;
+}	
+	
+	
+	
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#wrapper{
+	 width:100%;
+}	
+#header{
+	background:100%;
+	overflow:hidden;
+}	
+#head_image {
+    width: 100%;
+}
+#head_image img {
+    width: 14%;
+    margin-left: 38%;
+}	
+#head_h1 {
+    width: 100%;
+	margin-top: 3%;
+    text-align: center;
+    font-size: 14px;
+}
+#menu {
+    background: white;
+    height: auto;
+    border-bottom: 2px solid black;
+}
+#menu ul li {
+    float: none;
+    text-align: center;
+	border-bottom: 1px solid #daecea;
+}	
+#menu ul li a{
+	font-size:20px;
+	font-style:italic;
+	font-weight:bold;
+	color:#3c604f;
+	transition: color 1s, background 2s;
+}
+#menu ul li a:hover{
+	color:black;
+	background:#3c604f;
+}
+#under_menu {
+    height: auto;
+    text-align: center;
+    padding: 11px;
+	background:#fffaf8;
+    box-sizing: border-box;
+}	
+#first_p {
+    background: #fbfaf9;
+}
+#first_p p{
+	color:black;
+	font-size:18px;
+}
+#div_wrap {
+    width: 87%;
+    height: 75px;
+}	
+#main_wrap {
+    width: 100%;
+    height: auto;
+}	
+#left_side_wrap {
+    width: 100%;
+    height: auto;
+    background: #383a3b;
+    float: left;
+    box-shadow: 1px 1px 4px black;
+    overflow: hidden;
+}
+#middle_part {
+    background: white;
+    height: auto;
+    width: 100%;
+	text-align:justify;
+}
+#middle_p {
+    width: 87%;
+    height: auto;
+	padding:5px;
+	line-height: 22px;
+	box-sizing:border-box;
+    background: #fff6f6;
+    border-bottom: 1px solid gray;
+    
+}	
+#middle_part2{
+	display:none;
+}	
+#right_side_wrap {
+    width: 100%;
+    height: auto;
+    background: #232526;
+ 
+}
+#box_menu4 {
+    width: 86%;
+    height: auto;
+    
+}
+#box_menu {
+    width: 86%;
+    height: 415px;
+    background: #e1e7ed;
+   
+}
+#box_menu3 {
+    width: 86%;
+}
+#box_menu5 {
+    width: 86%;
+}
+#foot_image img {
+    width: 100%;
+    vertical-align: middle;
+}
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+	
+	
+	
+	
+	
+}
